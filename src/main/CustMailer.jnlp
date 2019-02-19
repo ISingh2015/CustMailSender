@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="" href="">
+    <information>
+        <title>Customer Email Application</title>
+        <vendor>INDERJIT SINGH SANHOTRA</vendor>
+        <homepage href="http://www.elegantsoftware.in/" />
+        <description>Customer Email Application</description>
+    </information>
+    <security>
+        <all-permissions/>
+    </security>
+    <resources>
+        <j2se version="1.7+" />
+        <jar href="CusMailer.jar" />
+    </resources>         
+    <application-desc main-class="com.cust.custmailsender.MailSender"/>
+
+</jnlp>
